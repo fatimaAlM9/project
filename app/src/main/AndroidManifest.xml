@@ -9,7 +9,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".bingoPage"></activity>
+        <activity android:name=".cardgame"></activity>
+        <activity android:name=".bingoPage" />
         <activity android:name=".gameSelection" />
         <activity android:name=".login" />
         <activity android:name=".newUser" />

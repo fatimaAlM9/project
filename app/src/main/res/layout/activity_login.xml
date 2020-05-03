@@ -13,7 +13,12 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="35dp"
         android:layout_marginLeft="35dp"
+        android:includeFontPadding="true"
+        android:shadowColor="#393737"
         android:text="User Name"
+        android:textColor="#0D47A1"
+        android:textStyle="bold"
+        app:fontFamily="casual"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="@+id/loginET_username" />
 
@@ -24,6 +29,9 @@
         android:layout_marginStart="42dp"
         android:layout_marginLeft="42dp"
         android:text="Password"
+        android:textColor="#0D47A1"
+        android:textStyle="bold"
+        app:fontFamily="casual"
         app:layout_constraintBaseline_toBaselineOf="@+id/loginET_password"
         app:layout_constraintStart_toStartOf="parent" />
 
@@ -44,7 +52,7 @@
         android:id="@+id/loginET_password"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="73dp"
+        android:layout_marginTop="48dp"
         android:layout_marginEnd="28dp"
         android:layout_marginRight="28dp"
         android:ems="10"
